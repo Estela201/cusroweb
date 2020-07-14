@@ -1,0 +1,171 @@
+h1 {
+    color: rgb(109, 255, 248);
+    text-align: center;
+    Border: 3px outset rgb(228, 93, 255);
+    background-color: rgb(255, 173, 248);
+}
+
+p {
+    color: #160115;
+}
+
+div {
+    background-color: rgb(103, 250, 255);
+    width: 98%;
+    height: 30px;
+    margin: 0px;
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    border: 3px solid rgb(57, 232, 255);}
+    @media (min-width: 500px){
+        h1::before{
+           content: "HOMEWORK!";
+       }}
+      @media (max-width: 499px) {
+            h1::before{
+               content: "MY WORK!";
+           }}
+
+
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-se rif;
+    color: rgb(0, 174, 255);
+    margin-top: 50px;
+}
+
+table {
+    border: 2px solid plum;
+    border-collapse: collapse;
+}
+
+h3 {
+    border: 2px solid plum;
+    width: 20%;
+    background-color: rgb(76, 207, 247);
+    padding: 5px;
+    text-align: center;
+}
+
+th,
+td {
+    border: 2px solid plum;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 19%;
+    text-align: center;
+}
+
+th {
+    background-color: powderblue;
+}
+
+td {
+    background-color: lightgray;
+}
+
+button {
+    border: 3px groove pink;
+    margin-top: 30px;
+}
+
+input {
+    border: 3px solid gray;
+
+}
+
+body{
+    background-color: rgb(204, 199, 199);
+    color: rgb(23, 1, 34);
+}
+
+ol li{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(77, 77, 250);
+}
+
+ul li{
+    color: rgb(23, 1, 34);
+    padding-top: 10px;
+}
+
+form{
+    background-color: rgb(103, 250, 255);
+}
+
+input[type=text] {
+    
+    background-color: rgb(238, 183, 217);
+
+    }
+
+    input[type=number] {
+        background-color: rgb(238, 183, 217);
+    }
+
+    input[type=password] {
+background-color:rgb(238, 183, 217);
+    }
+
+    input[type=country] {
+        background-color: rgb(238, 183, 217);
+    }
+
+    button{
+        background-color: rgb(238, 183, 217);
+        font-weight: bold;
+    }
+
+    button:hover { 
+        background-color: #ed1ca1;
+    }
+
+    a::before{
+        content:"\21d2 click here:";
+        font-weight:bold;
+    }
+
+    p::selection{
+        color: purple;
+        background-color: rgb(0, 174, 255);
+    }
+
+    h2::selection{
+        color: purple;
+        background-color: rgb(0, 174, 255);
+    }
+
+    @media print{
+        .screen-only{
+            display: none;
+        }
+    }
+
+    
+    @media (min-width: 500px){
+        body{
+            background-color: rgb(204, 199, 199) ;
+        }}
+        @media (max-width: 500px){
+            body{
+                background-color: rgb(224, 19, 214) ;
+            }}
+
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .containe>div{
+                background-color:black ;
+                font-size:20px ;
+                margin: 20px;
+                padding: 20px;
+                width:200px ;
+
+            }
+
+   
+
+
